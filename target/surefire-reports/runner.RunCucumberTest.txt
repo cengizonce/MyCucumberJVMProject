@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: runner.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 2, Skipped: 0, Time elapsed: 70.57 s <<< FAILURE! - in runner.RunCucumberTest
+Ilk Senaryo(Senaryo Ismi)  Time elapsed: 40.409 s  <<< FAILURE!
+java.lang.AssertionError
+
+Ilk Senaryo(Senaryo Ismi)  Time elapsed: 40.414 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'testinium-MacBook-Air.local', ip: '2a02:ff0:3d04:aa6b:29a6:135c:ef27:f1d6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+
+Ilk Senaryoaaa(Senaryolaaar)  Time elapsed: 9.883 s  <<< FAILURE!
+java.lang.AssertionError
+
+Ilk Senaryoaaa(Senaryolaaar)  Time elapsed: 9.886 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'testinium-MacBook-Air.local', ip: '2a02:ff0:3d04:aa6b:29a6:135c:ef27:f1d6%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+
